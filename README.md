@@ -2,8 +2,8 @@
 
 # Requirements
 
-1. Basic knowledge of Python
-2. Wanting to have fun while learning
+1. Basic knowledge of Python.
+2. Wanting to have fun while learning.
 3. Unquenchable thirst of making a BADASS tic tac toe game🎮 !!!
 
 # Why Tic Tac Toe?
@@ -34,7 +34,7 @@ The general outline of creating a Tic-Tac-Toe game:
 
 # Challenges
 
-Very Awkward to play if you are alone 😢
+Very Awkward to play if you are alone 😢.
 
 # Conclusion
 
