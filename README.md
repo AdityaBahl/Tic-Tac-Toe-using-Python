@@ -1,63 +1,36 @@
-# Face Detection Application using OpenCV and Tkinter GUI
+# Tic Tac Toe Using Python
 
-# IMPORTED LIBRARIES
+# Requirements
 
-Python libraries like :-
+1. Basic knowledge of Python
+2. Wanting to have fun while learning
+3. Inquentiable thirst of making a BADASS tic tac toe game🎮 !!!
 
-1. Tkinter :- used for GUI(Graphical User Interface)
-2. cv2 :- OpenCV used for face detection
-3. subprocess:- used to run system level script
+# Why Tic Tac Toe?
 
-# Why Face Detection?
+There are a few reasons why you might want to make a Tic-Tac-Toe game using Python:
 
-There are several motivations for using face detection with OpenCV, some of which are:
-Automating tasks: It can be used to automate tasks that require identifying and processing
-images of human faces. For example, a face detection system could be used to
-automatically tag friends in a photo album or to index and search a database of images for
-specific people.
+1. It's a classic programming exercise that can help you learn and practice Python concepts like variables, loops, and control structures.
 
-1. Security and surveillance: Face detection can be used in security and surveillance
-   applications to identify and track individuals in real-time or in recorded video footage. This
-   can help to detect and prevent crimes, as well as to gather evidence for investigations.
-2. Human-computer interaction: Face detection can be used to enable more natural and
-   intuitive forms of human-computer interaction, such as facial recognition login systems or
-   facial expression analysis for emotional computing.
-3. Research and development: Face detection is a widely studied problem in computer vision
-   and machine learning, and there is ongoing research and development in this area to
-   improve the accuracy and efficiency of face detection algorithms. OpenCV provides an open
-   source platform for researchers and developers to experiment with and contribute to the
-   advancement of face detection technology.
+2. It's a simple and fun project that can be completed in a short amount of time, making it a great way to get started with Python programming.
 
-# Why OpenCV?
+3. You can customize and extend the game to make it more interesting, such as by adding a GUI or allowing players to play against the computer.
 
-There are several reasons why OpenCV is a good choice for face detection:
-
-1. OpenCV is open source: OpenCV is an open source library, which means that it is free to use and distribute. This makes it an attractive option for developers who want to use it in their projects without incurring any licensing fees.
-2. OpenCV is widely used: OpenCV is a popular library with a large user base and a active developer community. This means that there is a wealth of documentation, tutorials, and examples available online, as well as a strong support network of users and developers who can help with any questions or issues that may arise.
-3. OpenCV is fast and efficient: OpenCV is optimized for real-time performance and is designed to be fast and efficient. This makes it a good choice for applications that require fast face detection, such as security and surveillance systems or human-computer interaction.
-4. OpenCV has a wide range of features: In addition to face detection, OpenCV includes a wide range of other features for image and video processing, such as object detection, image segmentation, and image stitching. This makes it a versatile and powerful library for a wide range of computer vision tasks.
-
-Overall, OpenCV is a good choice for face detection due to its open source nature, wide user base, fast performance, and extensive feature set.
+4. Tic-Tac-Toe is a game that can be enjoyed by people of all ages, so you can share your game with friends and family and get feedback on your work.
 
 # Algorithm
 
-Here are the steps to detect faces in an image using OpenCV:
+The general outline of creating a Tic-Tac-Toe game:
 
-1. Import the necessary libraries, such as cv2 for OpenCV and numpy for numerical processing.
-2. Load the image using the imread function from the cv2 library. This function returns a
-   NumPy array representing the image.
-3. Convert the image to grayscale using the cvtColor function from the cv2 library. This is
-   typically done because face detection algorithms are more sensitive to grayscale images.
-4. Load the pre-trained face detection classifier using the CascadeClassifier function from the
-   cv2 library. This classifier is trained to recognize common patterns in images that are
-   characteristic of faces.
-5. Use the detectMultiScale method of the CascadeClassifier object to detect faces in the
-   image. This method returns a list of rectangles, each representing a face in the image.
-6. Iterate through the list of rectangles and draw a rectangle around each face using the
-   rectangle function from the cv2 library. You can specify the color and thickness of the
-   rectangle using the color and thickness parameters.
-7. Display the image using the imshow function from the cv2 library and wait for the user to
-   close the window using the waitKey function.
+1. Define the game board as a list of strings. Each string in the list should represent a row on the Tic-Tac-Toe board. For example, the empty board could be represented as [" ", " ", " "] for a 3x3 board.
+
+2. Define the winning combinations as a list of lists. Each inner list should contain the indices of the cells that make up a winning combination. For example, for a 3x3 board, the winning combinations could be [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]].
+
+3. Write a function that takes in a board and a player symbol (either "X" or "O") and places the symbol on the board at the desired position.
+
+4. Write a function that checks the board to see if either player has won the game. This function should return True if one of the winning combinations has been achieved, and False otherwise.
+
+5. Write a function that plays the game. This function should handle player turns, check for winning conditions, and handle a tie game if the board is full but no player has won.
 
 # Challenges and limitations of OpenCV
 
