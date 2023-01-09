@@ -4,7 +4,7 @@
 
 1. Basic knowledge of Python
 2. Wanting to have fun while learning
-3. Inquentiable thirst of making a BADASS tic tac toe game🎮 !!!
+3. Unquenchable thirst of making a BADASS tic tac toe game🎮 !!!
 
 # Why Tic Tac Toe?
 
