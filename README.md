@@ -38,8 +38,8 @@ Very Awkward to play if you are alone 😢.
 
 # Contributions
 
-1. This does not currently have a GUI or Front-end, if anyone is interested in contributing, kindly the pull and request 🤗.
-2. This project does not have a mode to select between AI player and human player, which would have made the game more interesting, if anyone is interested in contributing, kindly the pull and request 🤗.
+1. This does not currently have a GUI or Front-end, if anyone is interested in contributing, kindly pull and request 🤗.
+2. This project does not have a mode to select between AI player and human player, which would have made the game more interesting, if anyone is interested in contributing, kindly pull and request 🤗.
 
 # Conclusion
 
